@@ -1,0 +1,30 @@
+/* Style for the cart */
+#cart {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+/* Styles for menu items */
+.menu-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #4caf50;
+}
